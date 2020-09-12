@@ -52,4 +52,4 @@ ENV     PORT=1234 \
         DEVICE=1 \
         ANTENNA=1
 
-CMD [ "bash", "-c", "exec rsp_tcp -a 0.0.0.0 -p ${PORT} -d ${DEVICE} -P ${ANTENNA} -r ${GAIN_REDUCTION} -L ${LNA} -A ${GAIN_AUTO} -G ${GAIN_LOOP}" ]
+CMD [ "bash", "-c", "exec rsp_tcp -a 0.0.0.0 -p ${PORT} -d ${DEVICE} -P ${ANTENNA} -r ${GAIN_REDUCTION} -l ${LNA} -A ${GAIN_AUTO} -G ${GAIN_LOOP}" ]
