@@ -20,7 +20,7 @@ Defaults:
 #### Example docker run
 
 ```
-docker run -d -e GAIN_REDUCTION=30 --restart unless-stopped --name='sdrplay_rsptcp' --device=/dev/bus/usb f4fhh/sdrplay_rsptcp
+docker run -d -p 8080:8080 -e GAIN_REDUCTION=30 --restart unless-stopped --name='sdrplay_rsptcp' --device=/dev/bus/usb f4fhh/sdrplay_rsptcp
 ```
 ### HISTORY
  - Version 0.1.0: Initial build
